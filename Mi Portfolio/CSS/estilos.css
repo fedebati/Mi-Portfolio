@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');/* font-family: 'ZCOOL KuaiLe', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); /* font-family: 'Indie Flower', cursive; */
+
+body
+{
+ background-color: #350053;
+ text-align: center;
+}
+
+header
+{
+    margin: 0;
+    background-color: black;
+}
+
+.div-header.col-sm-12
+{
+    border: 1px solid black;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+
+
+.navbar-brand img
+{
+    width:2em;
+    border-radius: 5px 10px 5px 10px;
+    -webkit-border-radius: 5px 10px 5px 10px;
+    -moz-border-radius: 5px 10px 5px 10px;
+    -ms-border-radius: 5px 10px 5px 10px;
+    -o-border-radius: 5px 10px 5px 10px;
+    margin: 5px;
+}
+
+
+.video-header
+{
+    width: 100%;
+    height: auto;
+}
+
+.nav-link.color-link:hover
+{
+   background-color: #350053;
+   transform:scale(1.1);
+   -webkit-transform:scale(1.1);
+   -moz-transform:scale(1.1);
+   -ms-transform:scale(1.1);
+   -o-transform:scale(1.1);
+   border-radius: 20px 20px 20px 20px;
+}
+
+.jumbo-black
+{
+    background-color: #000;
+    color: #fff;
+}
+
+.jumbotron
+{
+    margin: 4em 2em;
+    border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    -moz-border-radius: 100px 100px 100px 100px;
+    -ms-border-radius: 100px 100px 100px 100px;
+    -o-border-radius: 100px 100px 100px 100px;
+    box-shadow: 0px 0px 20px 15px black;
+    font-family: 'Indie Flower', cursive;
+}
+
+.jumbotron h1, h2
+{
+    font-size: 300%;
+}
+
+.my-4
+{
+    box-shadow: 0 0 20px 10px #350053;
+    width: 80%;
+}
+
+.jumbotron img
+{
+    width: 25%;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -ms-border-radius: 20px 20px 20px 20px;
+    -o-border-radius: 20px 20px 20px 20px;
+    margin-bottom: 0.5em;
+}
+
+/*acerca de mi*/
+ .card-folio
+ {
+    margin: 2em;
+    border-radius: 0 0 50px 50px;
+    -webkit-border-radius: 0 0 50px 50px;
+    -moz-border-radius: 0 0 50px 50px;
+    -ms-border-radius: 0 0 50px 50px;
+    -o-border-radius: 0 0 50px 50px;
+    box-shadow: 10px 10px 20px 10px #000;
+}
+
+.card.card-folio:hover
+{
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.block-portfolio
+{
+    border-radius: 20px 20px 50px 50px;
+    -webkit-border-radius: 20px 20px 50px 50px;
+    -moz-border-radius: 20px 20px 50px 50px;
+    -ms-border-radius: 20px 20px 50px 50px;
+    -o-border-radius: 20px 20px 50px 50px;
+    border-top:3px solid #B5831B;
+    border-left:3px solid #B5831B  ;
+    border-right:3px solid #B5831B ;
+}
+
+.title-portfolio
+{
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+
+/*            FORMULARIO           */
+
+.new-formulario form p
+{
+    font-size: 1.5em;
+}
+
+.new-formulario form #name,
+.new-formulario form #correo,
+.new-formulario form #Mensaje
+{
+    width: 50vw;
+    text-align: center;
+     
+}
+
+.new-formulario form #name,
+.new-formulario form #correo,
+.new-formulario form #Mensaje:focus
+{
+    border: none;
+}
+
+.new-formulario form #Motivo,
+.new-formulario form #name,
+.new-formulario form #correo,
+.new-formulario form #Mensaje
+{
+    border: none;
+    background-color: #000;
+    border-bottom: 3px solid #B5831B;
+    color: #B5831B;
+    border-radius: 20px 20px 50px 50px;
+    align-items: center;
+    -webkit-border-radius: 20px 20px 50px 50px;
+    -moz-border-radius: 20px 20px 50px 50px;
+    -ms-border-radius: 20px 20px 50px 50px;
+    -o-border-radius: 20px 20px 50px 50px;
+    outline: none;
+    
+}
+    
+
+.new-formulario form #btn-form
+{
+    width: 50vw;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 20px 20px 50px 50px;
+    border: none;
+    background-color: #350053;
+    color: #fff;
+}
+
+.new-formulario form #btn-form:hover
+{
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    box-shadow: 0 0 20px 1px#B5831B;
+    color: #fff;
+}
+
+.new-formulario form #btn-form:active
+{
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    box-shadow: none;
+    
+}
+
+/*------------------------------------------*/
+
+
+footer .redes
+{
+   margin-top: 1em;
+   
+}
+
+.redes a
+{
+    font-size: 2em;
+}
+
+.footer-contenedor
+{
+    background-color: #000;
+    margin-top: 2em;
+    color: #fff;
+    
+}
+
+.col-footer a
+{
+    color: #B5831B;
+    text-decoration: none;
+    
+}
+
+.col-footer ul
+{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap:0.5em;
+    text-align: center;
+    justify-content:center
+    
+
+}   
+
+
+.copy-footer
+{
+    background-color: #B5831B;
+    text-align: center;
+    padding: 1em;
+    align-items: center;
+}
+
+
+
+
+@media only screen and (max-width: 575px) {
+    .jumbotron.jumbo-black
+    {
+      margin-top: 0;
+      margin-bottom: 2em;
+      margin-left: 0;
+      margin-right: 0;
+      border: radius 0;
+      -webkit-border-radius:0;
+      -moz-border-radius:0;
+      -ms-border-radius:0;
+      -o-border-radius:0;
+    }
+    
+    .jumbotron
+    {
+        margin: 5em auto;
+    }
+    
+    .block-portfolio
+    {
+        margin-bottom: 2em;
+    }
+    
+    .card-folio
+    {
+        margin: 1em;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .jumbotron img
+    {
+    width: 30%;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -ms-border-radius: 20px 20px 20px 20px;
+    -o-border-radius: 20px 20px 20px 20px;
+    margin-bottom: 0.5em;
+    }
+    
+    .jumbotron
+    {
+        margin-top: 5em;
+        margin-bottom: 5em;
+        
+    }
+  }
+  
+  
+  
+  @media only screen and (max-width: 425px){
+    .jumbotron img
+    {
+    width: 40%;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -ms-border-radius: 20px 20px 20px 20px;
+    -o-border-radius: 20px 20px 20px 20px;
+    margin-bottom: 0.5em;
+    }
+    .jumbotron
+    {
+        margin-top: 5em;
+        margin-bottom: 5em;  
+    }
+  
+  }
